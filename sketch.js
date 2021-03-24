@@ -12,7 +12,7 @@ var stone1;
 var elastic1;
 
 function preload(){
-	boy=loadImage("images/boy.png");
+	boy=loadImage("boy.png");
   }
 
 function setup() {
@@ -59,5 +59,5 @@ function mouseDragged(){
 }
 
 function mouseReleased(){
-    elastic1.fly();
+    elasticObj.fly();
 }

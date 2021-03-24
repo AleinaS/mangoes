@@ -8,7 +8,7 @@ constructor(x,y){
 
      }
     
-    this.image = loadImage("images/stone.png");
+    this.image = loadImage("stone.png");
   }
 
   display() {
